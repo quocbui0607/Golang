@@ -51,7 +51,7 @@ func main() {
 
 	err := http.ListenAndServe(":3333", server)
 	if err == nil {
-
+		fmt.Println("Start server error!")
 	}
 }
 
